@@ -1,0 +1,123 @@
+@charset "UTF-8"; body {
+    color: #060606;
+    font-family: 'aveniraa';
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    min-height: 100vh;
+    position: relative;
+    /*←相対位置*/
+    padding-bottom: 120px;
+    /*←footerの高さ*/
+    box-sizing: border-box;
+    /*←全て含めてmin-height:100vhに*/
+}
+
+/* header */
+.header {
+    border-bottom: 3px solid #E04444;
+    margin: 0;
+    /* borderの隙間を無くす方法について */
+    height: 70px;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+}
+
+.header_menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.header_menu li {
+    display: flex;
+    text-align: center;
+    margin-left: 40px;
+    padding: 0;
+}
+
+.header_menu p {
+    color: #555353;
+    margin: 0;
+    font-size: 15px;
+    /* border-bottom: 2px dotted #707070; */
+}
+
+.header_menu img {
+    width: 30px;
+    margin-top: 10px;
+}
+
+/* メール送信完了画面 */
+.main_contact {
+    text-align: center;
+}
+
+.main_contact h6 {
+    font-size: 50px;
+    padding-top: 12%;
+    margin: 0;
+    color: #555353;
+}
+
+.alert-success {
+    margin-top: 2%;
+    padding: 3%;
+}
+
+.alert-error {
+    margin: 0;
+    padding: 4%;
+}
+
+.back {
+    margin-top: 10%;
+}
+
+.back button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1em 2em;
+    width: 150px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #cccccc;
+    border-radius: 50vh;
+}
+
+.back button::after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-top: 3px solid #333333;
+    border-right: 3px solid #333333;
+    transform: rotate(45deg);
+}
+
+.back button:hover {
+    text-decoration: none;
+    background-color: #bbbbbb;
+}
+
+/* footer */
+.footer_copyright {
+    width: 100%;
+    background-color: #89c7de;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    position: absolute;
+    /*←絶対位置*/
+    bottom: 0;
+    /*下に固定*/
+}

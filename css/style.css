@@ -1,0 +1,305 @@
+@charset "UTF-8"; 
+/****************
+* 初期設定
+****************/
+body {
+    color: #060606;
+    font-family: 'aveniraa';
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+.header {
+    border-bottom: 3px solid #E04444;
+    margin: 0;
+    height: 70px;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+}
+
+.header_menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.header_menu li {
+    display: flex;
+    text-align: center;
+    margin-left: 40px;
+    padding: 0;
+}
+
+.header_menu p {
+    color: #555353;
+    margin: 0;
+    font-size: 15px;
+}
+
+.header_menu img {
+    width: 30px;
+    margin-top: 10px;
+}
+
+/* main */
+/* 名前・写真 */
+.main {
+}
+
+.main_kv {
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1, h2 {
+    margin-top: 125px;
+}
+
+.name_en {
+    font-size: 65px;
+    line-height: 150%;
+    padding: 0;
+    color: #555353;
+}
+
+.name_ja {
+    color: #E04444;
+    font-size: 35px;
+    letter-spacing: 1em;
+    margin-left: 10px;
+}
+
+.main_kv img {
+    width: 40%;
+}
+
+/* 自己紹介 */
+.main_about {
+    text-align: center;
+    background-color: #E04343;
+    color: #F8F5F5;
+    height: 50em;
+}
+
+.about {
+    height: 575px;
+}
+
+#About {
+    padding-top: 90px;
+}
+
+.main_about h3 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.about_intro {
+    margin: 0;
+}
+
+.about_intro .about_text {
+    text-align: left;
+	display: inline-block;
+    line-height:2;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about_logo a {
+    display: inline-block;
+    margin: 0;
+    width: 30px;
+}
+
+.about_logo img {
+    width: 40px;
+}
+
+/* 実績 */
+.main_project {
+    height: 800px;
+    text-align: center;
+}
+
+#Projects {
+    padding-top: 90px;
+}
+
+.main_project h4 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 80px;
+    color: #E04343;
+}
+
+.project_result {
+    display: flex;
+    width: auto;
+    height: 500px;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    color: #555353;
+}
+
+.result {
+    width: 600px;
+}
+
+.result img {
+    width: 220px;
+    border: 2px solid #E04343;
+}
+
+.result h5 {
+    font-size: 30px;
+    margin: 25px;
+}
+
+/* 連絡先 */
+.main_contact {
+    text-align: center;
+}
+
+#Contact {
+    padding-top: 90px;
+}
+
+.main_contact h6 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: #555353;
+}
+
+.form {
+    padding: 0em;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.item {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em;
+}
+
+.form-item {
+    height: 2em;
+}
+
+.item label {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item label > * {
+    display: block;
+    width: 100%;
+}
+
+.item label > input,textarea {
+    order: 2;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+}
+
+.item label > span {
+    order: 1;
+    margin-bottom: 3px;
+}
+
+.notice {
+    font-size: 12px;
+    line-height: 1;
+    display: inline-block;
+    margin-left: 5px;
+    padding: 2px;
+    color: #666;
+    border: 1px solid #666;
+    border-radius: 3px;
+}
+
+input:invalid + span .notice {
+    color: red;
+    border-color: red;
+}
+
+input:valid + span .notice {
+    color: green;
+    border-color: green;
+}
+
+input:valid + span .notice:after {
+    margin-left: .5em;
+    content: '入力OK';
+}
+
+textarea:invalid + span .notice {
+    color: red;
+    border-color: red;
+}
+
+textarea:valid + span .notice {
+    color: green;
+    border-color: green;
+}
+
+textarea:valid + span .notice:after {
+    margin-left: .5em;
+    content: '入力OK';
+}
+
+.send-button {
+    display : inline-block;
+    border-radius : 5%;
+    /* 角丸       */
+    font-size: 14pt;
+    /* 文字サイズ */
+    text-align : center;
+    /* 文字位置   */
+    cursor : pointer;
+    /* カーソル   */
+    padding: 8px 38px;
+    /* 余白       */
+    background : #1a1aff;
+    /* 背景色     */
+    color : #ffffff;
+    /* 文字色     */
+    line-height : 1em;
+    /* 1行の高さ  */
+    transition : .3s;
+    /* なめらか変化 */
+    border : 2px solid #1a1aff;
+    /* 枠の指定 */
+}
+
+.send-button:hover {
+    color : #1a1aff;
+    /* 背景色     */
+    background : #ffffff;
+    /* 文字色     */
+}
+
+/* footer */
+.footer {
+    height: 80px;
+    background-color: #E9EFEF;
+    position: relative;
+}
+
+.footer_copyright {
+    color: #938F8F;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
