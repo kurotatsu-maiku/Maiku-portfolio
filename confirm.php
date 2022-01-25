@@ -59,7 +59,7 @@ try {
         <p>電話番号：$tel</p>
         <p>お問い合わせ内容：$comment</p>
         ","JIS","UTF-8");  
-        exit;
+
     //送信
     if (!$mail->send()){}
         $success_message = "送信完了！";
