@@ -103,7 +103,7 @@
                 <div class="result">
                     <!-- 今後imgのdivを消す -->
                     <div>
-                        <img src="img/IMG_8806.JPG" alt="">
+                        <img src="img/TwitterClone.png" alt="">
                     </div>
                     <h5>Twitterクローン</h5>
                     <div class="project_text">
