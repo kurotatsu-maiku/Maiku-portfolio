@@ -103,33 +103,33 @@
                 <div class="result">
                     <!-- 今後imgのdivを消す -->
                     <div>
-                        <img src="img/TwitterClone.png" alt="">
+                        <img src="img/IMG_0079.jpg" alt="">
                     </div>
                     <h5>Twitterクローン</h5>
                     <div class="project_text">
                         <p>成果物の概要</p>
-                        <p>テストアカウント</p>
-                        <p>Email:maiku19950522@gmail.com</p>
-                        <p>Pass:</p>
+                        <p>Twitterクローンの学習</p>
+                        <p></p>
+                        <p></p>
                     </div>
-                    <a href="">webサイト</a>
-                    <a href="">Github</a>
+                    <a href=""></a>
+                    <a href=""></a>
                 </div>
 
                 <div class="result">
                     <!-- 今後imgのdivを消す -->
                     <div>
-                        <img src="img/IMG_8806.JPG" alt="">
+                        <img src="img/coming-soon.jpeg" alt="">
                     </div>
-                    <h5>Twitterクローン</h5>
+                    <h5>IN-AND-OUT</h5>
                     <div class="project_text">
                         <p>成果物の概要</p>
-                        <p>テストアカウント</p>
-                        <p>Email:maiku19950522@gmail.com</p>
-                        <p>Pass:</p>
+                        <p>チーム開発</p>
+                        <p>フラグを管理するアプリ</p>
+                        <p></p>
                     </div>
-                    <a href="">webサイト</a>
-                    <a href="">Github</a>
+                    <a href=""></a>
+                    <a href=""></a>
                 </div>
             </div>
         </section>

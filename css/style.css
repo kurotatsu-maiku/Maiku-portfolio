@@ -107,8 +107,8 @@ h1, h2 {
 
 .about_intro .about_text {
     text-align: left;
-	display: inline-block;
-    line-height:2;
+    display: inline-block;
+    line-height: 2;
     margin-left: auto;
     margin-right: auto;
 }
@@ -154,8 +154,9 @@ h1, h2 {
 }
 
 .result img {
-    width: 220px;
+    width: 60%;
     border: 2px solid #E04343;
+    height: 24em;
 }
 
 .result h5 {
